@@ -8,7 +8,7 @@ import winston from 'winston'
 
 import {getConfig} from './config'
 
-const LOG_DIR = path.join(app.getPath('userData'), 'logs')
+const LOG_DIR = path.join(app.getPath('logs'))
 const ERROR_LOG = path.join(LOG_DIR, 'error.log')
 const COMBINED_LOG = path.join(LOG_DIR, 'combined.log')
 const FILE_OPTIONS = {
